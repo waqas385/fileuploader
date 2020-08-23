@@ -1,0 +1,19 @@
+{
+  "name": "fileuploader",
+  "version": "1.0.0",
+  "description": "Upload files to server",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "FileUpload",
+  ],
+  "author": "Waqas Ahmed",
+  "license": "ISC",
+  "dependencies": {
+    "formidable": "^1.2.2",
+    "mustache": "^4.0.1"
+  }
+}

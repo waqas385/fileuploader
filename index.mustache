@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Expenset {{ pageTitle }}</title>
+	<style>
+		/* Message styling */
+		.message {
+			padding: 16px;
+			border: 1px solid;
+			margin-bottom: 16px;
+		}
+		.success {
+			border-color: #28BE6A;
+		}
+		.error {
+			border-color: #CF2F2F;
+		}
+		/* Form */
+		.form-element {
+			padding: 8px;
+		}
+		label {
+			display: inline-block;
+			width: 110px;
+		}
+	</style>
+</head>
+<body>
+	<form action="/picupload" method="post" enctype="multipart/form-data">
+		<h1>File uploader</h1>
+		<hr/>
+		{{#message}}
+		<div class="message {{message.type}}">
+			{{message.text}}
+		</div>
+		{{/message}}
+		<div class="form-element">
+			<label for="proficepic">Profile picture:</label>
+			<input type="file" name="proficepic" accept="image/*">
+		</div>
+		<div class="form-element">
+			<button type="submit">Submit</button>
+		<div class="form-element">
+	</form>
+</body>
+</html>
