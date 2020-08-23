@@ -13,7 +13,7 @@ Follow steps to configure project:
 1. Create folder with name: ***uploads*** within same directory.
 2. Need to install dependencies run command ***npm install***
 
-***Note*** 	&#129488 Make sure you have installed node.js on your machine &#128578
+***Note*** 	Make sure you have installed node.js on your machine
 
 You are done with setup, run command 'node server.js' to start your app
 
