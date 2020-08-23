@@ -1,3 +1,6 @@
+/*
+* File includes functions require to perform upload, create directory, file extension, file content
+*/
 let fs = require('fs');
 let path = require('path');
 
