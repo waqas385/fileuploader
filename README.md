@@ -1,4 +1,4 @@
-# File uploader
+# File uploader (Node.js)
 
 Code written in node.js to upload files to server
 
