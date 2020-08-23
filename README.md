@@ -28,5 +28,5 @@ You are done with setup, run command 'node server.js' to start your app
 
 ## Support
 
-Please [open an issue](https://github.com/fraction/readme-boilerplate/issues/new) for support.
+Please [open an issue](https://github.com/waqas385/fileuploader/issues/new) for support.
 
